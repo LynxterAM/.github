@@ -1,7 +1,6 @@
 ---
 name: documentation
 about: Ajout/ modification documentation
-title: ''
 title: '[ Groupe fonctionnalité ] - Titre'
 type: 'Task'
 labels: 'documentation'
