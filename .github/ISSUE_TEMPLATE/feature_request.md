@@ -1,7 +1,6 @@
 ---
 name: Feature request
 about: Nouvelle fonctionnalité
-title: ''
 title: '[ Groupe fonctionnalité ] - Titre'
 type: 'Feature'
 labels: 'enhancement'
