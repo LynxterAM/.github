@@ -7,6 +7,8 @@ labels: 'bug'
 assignees: ''
 
 ---
+**Contact de l'observateur du bug**
+Prénom Nom
 
 **Description du bug**
 Une description claire et concise du bug rencontré.
