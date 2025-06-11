@@ -10,6 +10,9 @@ assignees: ''
 **Description**
 Description de la technologie
 
+**Projets envisagées**
+Des indications, suggestions ou pistes de solutions pour des problématiques sur des projets existant.
+
 **Points positifs**
 - Point 1
 - Point 2
