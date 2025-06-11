@@ -1,5 +1,5 @@
 ---
-name: documentation
+name: Documentation
 about: Ajout/ modification documentation
 title: '[ Groupe fonctionnalité ] - Titre'
 type: 'Task'
