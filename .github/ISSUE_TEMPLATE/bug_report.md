@@ -2,7 +2,8 @@
 name: Bug report
 about: Signaler un bug
 title: ''
-labels: ''
+Type: 'Bug'
+labels: 'Bug'
 assignees: ''
 
 ---
