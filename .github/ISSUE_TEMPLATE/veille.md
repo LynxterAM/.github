@@ -17,7 +17,7 @@ Des indications, suggestions ou pistes de solutions pour des problématiques sur
 - Point 1
 - Point 2
  
-**Points negatifs**
+**Points négatifs**
 - Point 1
 - Point 2
 
