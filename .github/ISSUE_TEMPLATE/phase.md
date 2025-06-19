@@ -2,7 +2,7 @@
 name: Phase
 about: Phase de projet (pas d'action dessus, ni de data)
 title: '[ GROUP ] - Titre'
-type: 'Task'
+type: 'Phase'
 labels: 'documentation'
 assignees: ''
 ---
