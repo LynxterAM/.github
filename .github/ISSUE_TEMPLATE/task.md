@@ -1,7 +1,7 @@
 ---
 name: Tâche
 about: Tâche du service qui n'est pas du développement
-title: '[ Type de tâche ] - Titre'
+title: '[ Type de tâche ] - '
 type: 'Task'
 labels: 'enhancement'
 assignees: ''
