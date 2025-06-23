@@ -1,7 +1,7 @@
 ---
 name: Sujet de veille
 about: Sujet de veille
-title: '[ Technologie ] - Titre'
+title: '[ Technologie ] - '
 type: 'Task'
 labels: 'documentation'
 assignees: ''
