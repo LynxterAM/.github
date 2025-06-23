@@ -1,7 +1,7 @@
 ---
 name: Bug report
 about: Signaler un bug
-title: '[ Source(Page,Route,Macro) ] - Titre'
+title: '[ Source(Page,Route,Macro) ] - '
 type: 'Bug'
 labels: 'bug'
 assignees: ''
