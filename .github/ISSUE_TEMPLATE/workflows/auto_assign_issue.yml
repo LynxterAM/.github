@@ -1,0 +1,26 @@
+name: Assaignation automatique des issues (évite les orphelines)
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  auto-assign:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const issue = context.payload.issue;
+
+            // Si aucun assignee, on assigne l'auteur de l'issue
+            if (!issue.assignees || issue.assignees.length === 0) {
+              await github.rest.issues.addAssignees({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                assignees: [issue.user.login],
+              });
+            }
