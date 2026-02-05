@@ -17,6 +17,12 @@ jobs:
           script: |
             const issue = context.payload.issue;
 
+            // Si lancement manuel (workflow_dispatch), il n'y a pas d'issue dans le payload
+            if (!issue) {
+              core.warning("Pas d'issue dans le contexte (workflow_dispatch). Crée une issue pour tester le déclencheur issues: opened.");
+              return;
+            }
+
             console.log(`Issue #${issue.number} opened by ${issue.user.login}`);
             console.log(`Current assignees: ${(issue.assignees || []).map(a => a.login).join(", ")}`);
 
