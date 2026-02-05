@@ -1,4 +1,4 @@
-name: Assaignation automatique des issues (évite les orphelines)
+name: Assignation automatique des issues (évite les orphelines)
 
 on:
   issues:
